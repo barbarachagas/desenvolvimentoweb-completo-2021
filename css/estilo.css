@@ -165,7 +165,7 @@ body{
     width: 85%;
     margin: 0 auto;
     min-width: 720px;
-    background: #fff;
+    background: #fff url("../imagens/coluna.png") repeat-y left top;
 }
 #marca{
     height: 200px;
@@ -186,7 +186,7 @@ img.img-noticia{
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #d1d1d1;
+    /* background: #d1d1d1; */
 }
 #navegacao ul{
     list-style: none;
