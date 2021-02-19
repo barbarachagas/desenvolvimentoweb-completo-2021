@@ -4,31 +4,46 @@
         <title>Elementos flutuantes</title>
         <meta charset="utf-8">
         <style type="text/css">
+            #principal{
+                border: 5px solid red;
+                 background: green;
+            }
             .conteudo{
                 background: blue;
                 border: 1px solid gray;
                 width: 150px;
                 height: 150px;
+                margin: 10px;
                 float: right;
             }
-            /* .conteudo1{
+            .conteudo-zero{
                 background: red;
                 border: 1px solid gray;
                 width: 150px;
                 height: 150px;
-                float: right;
-            } */
+                margin: 10px;
+            }  
+            .clear{
+                clear: both;
+            }
         </style>
     </head>
     <body>
-        <div class="conteudo">
-            Conteúdo 1
+        <div id="principal">
+            <div class="conteudo">
+                Conteúdo 1
+            </div>
+            <div class="conteudo">
+                Conteúdo 2
+            </div>
+            <div class="conteudo">
+                Conteúdo 3
+            </div>
+            <p class="clear">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non metus porttitor, volutpat ipsum imperdiet, fringilla tellus. Curabitur non nisl at ligula condimentum eleifend ac quis augue. Vestibulum porta dui non neque laoreet ornare. Duis semper lectus in lacus ornare, a porttitor metus ultricies. Etiam finibus convallis mauris, eget accumsan odio malesuada sed. Quisque at venenatis arcu, ac posuere risus. Duis eu nibh molestie, venenatis est non, condimentum dolor. Phasellus vitae leo sem. In eu eleifend mi. Vestibulum tincidunt ligula sed sodales lacinia. Quisque est dui, pretium nec nunc sed, suscipit euismod augue.
+            </p>
         </div>
-        <div class="conteudo">
-            Conteúdo 2
-        </div>
-        <div class="conteudo">
-            Conteúdo 3
-        </div>
+
+
     </body>
 </html>
