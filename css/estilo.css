@@ -40,6 +40,13 @@ p a {
 
 /* Seletor de irmão geral */
 
-h1~p{
+/* h1~p{
     color: blue;
-}
+} */
+
+/* 
+body{
+    color: red;
+    border: 1px solid blue;
+} */
+
