@@ -168,14 +168,18 @@ body{
     background: #fff;
 }
 #marca{
-    height: 100px;
-    background: #9e9e9e;
+    height: 200px;
+    background: #225992 url("../imagens/cabecalho2.jpg") no-repeat center;
     text-align: center;
-    line-height: 100px;
+    line-height: 200px;
 }
 #conteudo{
     width: 74%;
     float: right;
+}
+img.img-noticia{
+    width: 90%;
+    padding: 2%;
 }
 #navegacao{
     width: 24%;
