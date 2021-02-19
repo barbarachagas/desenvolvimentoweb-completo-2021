@@ -84,11 +84,10 @@ ul a:hover{
 } */
 
 /* *************************************************** */
-ul#navegacao{
+/* ul#navegacao{
     margin: 0;
     padding: 0;
     list-style: none;
-    /* border: 1px solid red; */
     width: 720px;
     background: #159cb0 url("../imagens/fundo-horizontal.png") repeat-x;
     float: left;
@@ -120,4 +119,40 @@ ul a:hover{
 #servicos #navegacao .servicos a{
     color: #085662;
     background: #44cade;
+} */
+
+/* *************************************************** */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li{
+    float: left;
+    background: url("../imagens/aba-direita.png") no-repeat top right;
+}
+
+li a{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url("../imagens/aba-esquerda.png") no-repeat top left;
+    color: white;
+}
+
+ul a:hover{
+    color: #894a1f;
+}
+
+ul #atual{
+    background: url("../imagens/aba-direita-atual.png") no-repeat top right;
+
+}
+ul #atual a{
+    background: url("../imagens/aba-esquerda-atual.png") no-repeat top left;
+
 }
