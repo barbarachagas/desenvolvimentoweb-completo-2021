@@ -162,8 +162,9 @@ body{
 }
 
 #container{
-    width: 720px;
+    width: 85%;
     margin: 0 auto;
+    min-width: 720px;
     background: #fff;
 }
 #marca{
@@ -173,11 +174,11 @@ body{
     line-height: 100px;
 }
 #conteudo{
-    width: 520px;
+    width: 74%;
     float: right;
 }
 #navegacao{
-    width: 180px;
+    width: 24%;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -190,11 +191,11 @@ body{
     text-decoration: none;
 }
 #conteudo-principal{
-    width: 320px;
+    width: 63%;
     float: left;
 }
 #conteudo-secundario{
-    width: 180px;
+    width: 35%;
     float: right;
     background: #d1d1d1;
 }
