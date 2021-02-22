@@ -1,35 +1,210 @@
+/* Seletor universal */
+/* *{
+    border: 1px solid red;
+} */
+/* Seletor de texto */
+/* h1{
+    color: green;
+} */
+
+/* Seletor de classe */
+/* .verde{
+    color:green;
+}
+p.verde{
+    color: green;
+} */
+
+/* Seletor de id */
+/* #teste{
+    color: red;
+} */
+
+/* Seletor de filho */
+
+/* li>a{
+    color: red;
+    text-decoration: none;
+} */
+
+/* Seletor de descendente */
+/* 
+p a {
+    color: green;
+} */
+
+/* Seletor de irmão adjacente */
+/* h1+p{
+    color: red;
+} */
+
+/* Seletor de irmão geral */
+
+/* h1~p{
+    color: blue;
+} */
+
+/* 
 body{
-    background: #d2d2c1 url('imagens/fundo.png');
-    font: 16px Arial, Helvetica, sans-serif;
+    color: red;
+    border: 1px solid blue;
+} */
+
+/* *************************************************** */
+/* 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-#principal{
-    width: 900px;
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url("../imagens/menu.png") no-repeat left bottom;
 }
-#menu{
-    background: #c5c5b2;
-    /* border: 1px solid red; */
-    padding: 18px;
+
+ul a:hover{
+    color: white;
+    background-color: #f99200;
+    background-position: right;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a{
+    color: white;
+    background-color: #f99200;
+    background-position: right;
+} */
+
+/* *************************************************** */
+/* ul#navegacao{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url("../imagens/fundo-horizontal.png") repeat-x;
+    float: left;
+}
+
+ul li{
+    float: left;
+}
+
+ul a{
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    background: url("../imagens/divisor.png") repeat-y ;
+}
+ul .primeiro a{
+    background: none;
+}
+
+ul a:hover{
+    color: #085662;
+    background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a{
+    color: #085662;
+    background: #44cade;
+} */
+
+/* *************************************************** */
+/* 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li{
+    float: left;
+    background: url("../imagens/aba-direita.png") no-repeat top right;
+}
+
+li a{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url("../imagens/aba-esquerda.png") no-repeat top left;
+    color: white;
+}
+
+ul a:hover{
+    color: #894a1f;
+}
+
+ul #atual{
+    background: url("../imagens/aba-direita-atual.png") no-repeat top right;
+
+}
+ul #atual a{
+    background: url("../imagens/aba-esquerda-atual.png") no-repeat top left;
+
+} */
+/* *************************************************** */
+body{
+    background: #f2f2f2;
+}
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    min-width: 720px;
+    background: #fff url("../imagens/coluna.png") repeat-y left top;
+}
+#marca{
+    height: 200px;
+    background: #225992 url("../imagens/cabecalho2.jpg") no-repeat center;
+    text-align: center;
+    line-height: 200px;
 }
 #conteudo{
-    background: #e8e8d9;
-    padding: 10px;
+    width: 74%;
+    float: right;
 }
-
-a{
-    color: #4b566a;
+img.img-noticia{
+    width: 90%;
+    padding: 2%;
+}
+#navegacao{
+    width: 24%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background: #d1d1d1; */
+}
+#navegacao ul{
+    list-style: none;
+}
+#navegacao li a{
     text-decoration: none;
-    font-weight: bold;
-    padding: 15px;
+}
+#conteudo-principal{
+    width: 63%;
+    float: left;
+}
+#conteudo-secundario{
+    width: 35%;
+    float: right;
+    background: #d1d1d1;
 }
 #rodape{
-    text-align: center;
-}
-h1{
-    color: #828271;
-    font-size: 1.2em;
-}
-
-.img-campanha{
-    border: 10px solid #c3c3ae;
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
 }
