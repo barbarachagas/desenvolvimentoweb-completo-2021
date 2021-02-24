@@ -19,7 +19,7 @@
 #caixa h1{
     background: rgba(255, 255, 255, 0.5);
 } */
-#caixa{
+/* #caixa{
     width: 300px;
     height: 300px;
     padding: 8px;
@@ -29,6 +29,28 @@
 }
 #caixa h1 {
     color: white;
-    /* text-shadow: 20px 20px black; */
+    text-shadow: 20px 20px black;
     text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+} */
+
+@keyframes animacao-caixa{
+    from{
+        background: red;
+        border-radius: 0px;
+    }
+    to{
+        border-radius: 300px;
+        background: yellow;
+    }
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    /* animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: animacao-caixa 5s 3s 2 alternate;
 }
