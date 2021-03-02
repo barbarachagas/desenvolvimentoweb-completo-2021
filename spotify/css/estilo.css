@@ -120,6 +120,9 @@ footer ul li{
     float: right;
     margin: 0 5px;
 }
+.carousel-control-prev, .carousel-control-next{
+    width: 5%;
+}
 .rotacao{
     transform: rotate(30deg);
     padding-left: 80px;
