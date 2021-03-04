@@ -1,0 +1,52 @@
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concatenação</title>
+
+    <script>
+        var data = new Date();
+
+        // document.write (data.getDate());
+        // document.write (data.getMonth()+1);
+        // document.write (data.getFullYear());
+
+        document.write(data.toString());
+
+        document.write('<hr>');
+        data.setDate(data.getDate()+1);
+        document.write(data.toString());
+
+        document.write('<br><hr><br>');
+        data.setMonth(data.getMonth()+1);
+        document.write(data.toString());
+
+        var data1 = new Date(2021, 0, 15);
+        var data2 = new Date(2021, 1, 23);
+        document.write('<br><hr><br><br><br>');
+
+        document.write(data1.toString());
+        document.write('<br>');
+        document.write(data2.toString());
+        document.write('<br>');
+        document.write('<br>');
+        
+        document.write(data1.getTime());
+        document.write('<br>');
+        document.write(data2.getTime());
+        document.write('<br>');
+        document.write('<br>');
+
+        // encontrar qtd de ms
+        document.write(Math.abs(data1.getTime()-data2.getTime()));
+        document.write('<br>');
+
+        document.write("Um dia tem " + (1*24*60*60*1000) + " milisegundos");
+        document.write('<br>');
+    </script>
+
+</head>
+<body>
+</body>
+</html>
